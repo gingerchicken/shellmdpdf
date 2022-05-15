@@ -35,7 +35,7 @@ fi
 cd $DIR
 
 # Export the markdown file to a PDF using pandoc
-pandoc -o $PDF $FILE --pdf-engine=xelatex --variable sansfont=Arial
+pandoc -o $PDF $FILE --pdf-engine=xelatex
 
 # Return to the original directory
 cd $CURRENT_DIR
