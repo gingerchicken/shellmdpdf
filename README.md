@@ -13,3 +13,10 @@ sudo pacman -Sy pandoc texlive-fontsextra
 ```bash
 sudo apt install pandoc texlive texlive-latex-extra -y
 ```
+
+## Usage
+I tried to make this script as simple as possible, so you can just run it from the command line.
+
+```bash
+$ ./shellmdpdf.sh README.md README.pdf
+```
