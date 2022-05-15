@@ -6,12 +6,12 @@ All in all you need to have pandoc and some other dependencies installed.
 
 ### Arch Linux
 ```bash
-sudo pacman -Sy pandoc texlive-fontsextra
+$ sudo pacman -Sy pandoc texlive-fontsextra
 ```
 
 ### Debian
 ```bash
-sudo apt install pandoc texlive texlive-latex-extra -y
+$ sudo apt install pandoc texlive texlive-latex-extra -y
 ```
 
 ## Usage
